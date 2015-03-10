@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: small;
+	background-color: #FAFAFA;
+}
+
+#nav {
+	text-align: center;
+} 
+
+#nav h1 {
+	font-size: 130% ;
+	margin-bottom: 0px;
+	color: #8e44ad;
+}
+
+#nav h3 {
+	margin-top: 5px;
+}
+
+.img-me img {
+	width: 153px;
+	display: block;
+	margin: 0 auto;
+}
+
+#nav ul {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+#nav li {
+	background-color: #8e44ad;
+}
+
+#nav li a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+.heading h2 {
+	background-color: #8e44ad;
+	padding: 2%;
+	color: #FAFAFA;
+}
+
+.text a {
+	text-decoration: none;
+	color: #8e44ad;
+	font-weight: 900;
+}
+
+
+#footer {
+	text-align: center;
+	background-color: #8e44ad;
+	padding: 2px;
+	color: #FAFAFA;
+	margin-top: 20px;
+
+}
+
+#footer a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+
+
+@media all and (min-width: 738px) {
+	
+	body {
+		font-size: medium;
+	}
+
+	#container {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	#nav {
+		display: inline-block;
+		width: 100%;
+		background-color: #8e44ad;
+		/*color: #ffffff;*/
+		color: #FAFAFA;
+
+	}
+
+
+	.img-me img {
+		float: left;
+		/*margin: 10px;*/
+
+	}
+
+	#nav h1 {
+		float: left;
+		margin-left: 20px;
+		margin-top: 20px;
+		font-size: xx-large;
+		margin-bottom: 0px;
+		/*color: #ffffff;*/
+		color: #FAFAFA;
+	}
+
+	.info {
+		float: left;
+		text-align: left;
+		margin-left: 20px;
+		margin-bottom: 0px;
+		width: 30%;
+	}
+
+	.info p {
+	
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.info h3 {
+	
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+
+	#nav li {
+		display: inline-block;
+		background-color: #FAFAFA;	
+	}
+
+
+	#nav ul {
+		margin-top: 100px;
+		text-align: right;
+		margin-bottom: 0px;
+
+	}
+
+	.heading {
+		width: 28%;
+		height: 100%;
+		display: inline-block;
+		float: left;
+		padding: 1%;
+	}
+
+	.heading h2 {
+		background-color: #FAFAFA;
+		color: #8e44ad;
+	}
+
+	.text {
+		width: 67%;
+		height: 100%;
+		display: inline-block;
+		/*text-align: justify;*/
+		padding: 1%;
+	}
+
+	.cc  {
+		font-size: small;
+}
+
+}
+
+@media all and (min-width: 850px) {
+
+	.info {
+		width: 40%;
+	}
+}
+
+
+@media all and (min-width: 980px) {
+
+	#profile,
+	#section,
+	#footer,
+	#line,
+	#container {
+		width: 980px;
+		margin: 0 auto;
+	}
+
+
+	#container {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.info {
+		width: 50%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
